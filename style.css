@@ -36,3 +36,30 @@ a {
     flex-grow: 1;
     justify-content: center;
 }
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    background: #1F2937;
+}
+
+.hero-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.hero-img {
+    height: 100px;
+}
+
+.hero-title {
+    color: #F9FAF8;
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.hero-subtext {
+    color: #E5E7EB;
+    font-size: 18px;
+}
