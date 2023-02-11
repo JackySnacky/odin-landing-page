@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-container {
+    display: flex;
+    background: #1F2937;
+    height: 72px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-logo {
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.header-links {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
