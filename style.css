@@ -64,6 +64,23 @@ a {
     font-size: 18px;
 }
 
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    background: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-author {
+    font-size: 28px;
+}
+
 .footer {
     display: flex;
     flex-direction: column;
