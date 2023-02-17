@@ -41,18 +41,21 @@ a {
 
 .hero-container {
     display: flex;
-    align-items: center;
     background: #1F2937;
+    justify-content: center;
 }
 
 .hero-info {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    padding: 40px;
+    width: 400px;
 }
 
 .hero-img {
-    height: 100px;
+    height: 200px;
+}
+
+.hero-img-card {
+    padding: 40px;
 }
 
 .hero-title {
@@ -91,4 +94,12 @@ a {
     background: #1F2937;
     color: white;
     height: 72px;
+}
+
+button {
+    border-radius: 6px;
+    padding: 8px 16px;
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
 }
