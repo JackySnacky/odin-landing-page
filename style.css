@@ -77,9 +77,43 @@ a {
     background: #E5E7EB;
 }
 
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+}
+
+.information {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    padding-bottom: 60px;
+}
+
+.info-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.info-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.info-text {
+    width: 200px;
+}
+
 .info-img {
     height: 200px;
     width: 200px;
+    border-radius: 8px;
+    border: 5px solid #3882F6;
 }
 
 .quote {
